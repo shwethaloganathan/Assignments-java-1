@@ -22,14 +22,15 @@ public class Assignment_2 {
 		if (age > 12 && age <= 25) {
 			System.out.println("Young");
 		}
-		if (age > 2 && age <= 12) {
-			System.out.println("Child");
+		if (age > 25 && age <= 59) {
+			System.out.println("Adult");
+		}
+	        if (age >= 58 && age <= 100) {
+			System.out.println("Sr.Citizen");
 		}
 		if (age > 100) {
 			System.out.println("Invalid age");
 		}
-	    
-		
 		
 		
 		
